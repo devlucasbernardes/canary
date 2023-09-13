@@ -1,6 +1,5 @@
 ---
 name: Build - Docker
-# ;commit
 
 on:
   workflow_dispatch:
