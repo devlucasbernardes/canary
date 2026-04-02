@@ -393,5 +393,8 @@ canary.old
 # VCPKG
 vcpkg_installed
 
+# Gradle
+.gradle/
+
 # CLION
 cmake-build-debug*
