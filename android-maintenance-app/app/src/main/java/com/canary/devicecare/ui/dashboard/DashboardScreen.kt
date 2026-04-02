@@ -125,12 +125,11 @@ fun DashboardScreen(
                     Spacer(Modifier.height(8.dp))
 
                     LinearProgressIndicator(
-                        progress = { batteryProgress },
+                        progress = batteryProgress,
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(8.dp)
                             .clip(MaterialTheme.shapes.small),
-                        strokeCap = StrokeCap.Round,
                     )
 
                     Spacer(Modifier.height(8.dp))
@@ -185,12 +184,11 @@ fun DashboardScreen(
                     Spacer(Modifier.height(8.dp))
 
                     LinearProgressIndicator(
-                        progress = { cpuProgress },
+                        progress = cpuProgress,
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(8.dp)
                             .clip(MaterialTheme.shapes.small),
-                        strokeCap = StrokeCap.Round,
                     )
                 }
             }
@@ -216,12 +214,11 @@ fun DashboardScreen(
                     Spacer(Modifier.height(8.dp))
 
                     LinearProgressIndicator(
-                        progress = { ramProgress },
+                        progress = ramProgress,
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(8.dp)
                             .clip(MaterialTheme.shapes.small),
-                        strokeCap = StrokeCap.Round,
                     )
                 }
             }
@@ -254,12 +251,11 @@ fun DashboardScreen(
                     Spacer(Modifier.height(8.dp))
 
                     LinearProgressIndicator(
-                        progress = { storageProgress },
+                        progress = storageProgress,
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(8.dp)
                             .clip(MaterialTheme.shapes.small),
-                        strokeCap = StrokeCap.Round,
                     )
                 }
             }

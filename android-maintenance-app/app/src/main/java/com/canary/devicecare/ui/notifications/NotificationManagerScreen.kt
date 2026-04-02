@@ -38,7 +38,6 @@ import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilledTonalButton
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LargeTopAppBar
 import androidx.compose.material3.MaterialTheme
@@ -366,7 +365,7 @@ fun NotificationManagerScreen(viewModel: NotificationViewModel = viewModel()) {
             if (recentNotifications.isNotEmpty()) {
                 item {
                     Spacer(Modifier.height(8.dp))
-                    HorizontalDivider()
+                    Divider()
                     Spacer(Modifier.height(8.dp))
                     Text(
                         text = stringResource(R.string.recent_notifications),

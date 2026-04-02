@@ -125,12 +125,11 @@ fun StorageAnalyzerScreen(viewModel: StorageViewModel = viewModel()) {
                             storageInfo.usedBytes.toFloat() / storageInfo.totalBytes else 0f
 
                         LinearProgressIndicator(
-                            progress = { usedPercent },
+                            progress = usedPercent,
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .height(12.dp)
                                 .clip(MaterialTheme.shapes.small),
-                            strokeCap = StrokeCap.Round,
                         )
                     }
                 }

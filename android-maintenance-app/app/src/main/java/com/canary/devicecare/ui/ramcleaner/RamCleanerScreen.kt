@@ -117,11 +117,9 @@ fun RamCleanerScreen(viewModel: RamCleanerViewModel = viewModel()) {
                         ) {
                             Box(contentAlignment = Alignment.Center) {
                                 CircularProgressIndicator(
-                                    progress = { ramProgress },
+                                    progress = ramProgress,
                                     modifier = Modifier.size(120.dp),
                                     strokeWidth = 10.dp,
-                                    strokeCap = StrokeCap.Round,
-                                    trackColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)
                                 )
                                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                                     Text(
