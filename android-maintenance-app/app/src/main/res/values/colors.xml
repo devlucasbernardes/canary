@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seed">#2E7D32</color>
+
+    <!-- Material You primary palette -->
+    <color name="md_theme_light_primary">#2E7D32</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#A5F5A0</color>
+    <color name="md_theme_light_onPrimaryContainer">#002204</color>
+    <color name="md_theme_light_secondary">#52634F</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_background">#FCFDF6</color>
+    <color name="md_theme_light_surface">#FCFDF6</color>
+    <color name="md_theme_light_error">#BA1A1A</color>
+
+    <color name="md_theme_dark_primary">#8BD987</color>
+    <color name="md_theme_dark_onPrimary">#00390B</color>
+    <color name="md_theme_dark_primaryContainer">#005315</color>
+    <color name="md_theme_dark_onPrimaryContainer">#A5F5A0</color>
+    <color name="md_theme_dark_secondary">#B9CCB4</color>
+    <color name="md_theme_dark_onSecondary">#253423</color>
+    <color name="md_theme_dark_background">#1A1C19</color>
+    <color name="md_theme_dark_surface">#1A1C19</color>
+    <color name="md_theme_dark_error">#FFB4AB</color>
+
+    <!-- Storage chart colors -->
+    <color name="chart_apps">#4CAF50</color>
+    <color name="chart_media">#2196F3</color>
+    <color name="chart_cache">#FF9800</color>
+    <color name="chart_system">#9C27B0</color>
+    <color name="chart_free">#E0E0E0</color>
+</resources>

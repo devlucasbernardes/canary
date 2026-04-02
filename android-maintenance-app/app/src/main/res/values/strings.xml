@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeviceCare</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Painel</string>
+    <string name="nav_ram">RAM</string>
+    <string name="nav_cache">Cache</string>
+    <string name="nav_storage">Armazenamento</string>
+    <string name="nav_notifications">Notificações</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Painel do Dispositivo</string>
+    <string name="battery_label">Bateria</string>
+    <string name="battery_charging">Carregando</string>
+    <string name="battery_health">Saúde: %1$s</string>
+    <string name="battery_temp">Temperatura: %1$.1f°C</string>
+    <string name="cpu_label">CPU</string>
+    <string name="cpu_usage">Uso: %1$.1f%%</string>
+    <string name="cpu_cores">%1$d núcleos</string>
+    <string name="ram_label">RAM</string>
+    <string name="ram_usage">%1$d MB / %2$d MB</string>
+    <string name="storage_label">Armazenamento</string>
+    <string name="storage_usage">%1$s / %2$s</string>
+    <string name="quick_actions">Ações Rápidas</string>
+    <string name="clean_ram">Limpar RAM</string>
+    <string name="clean_cache">Limpar Cache</string>
+    <string name="smartwatch_status">Smartwatch</string>
+    <string name="smartwatch_connected">Conectado: %1$s</string>
+    <string name="smartwatch_disconnected">Desconectado</string>
+
+    <!-- RAM Cleaner -->
+    <string name="ram_cleaner_title">Limpador de RAM</string>
+    <string name="ram_total">Total: %1$d MB</string>
+    <string name="ram_used">Usado: %1$d MB</string>
+    <string name="ram_free">Livre: %1$d MB</string>
+    <string name="clean_ram_button">Liberar Memória RAM</string>
+    <string name="ram_cleaned">RAM liberada com sucesso!</string>
+    <string name="running_apps">Aplicativos em Execução</string>
+    <string name="ram_usage_mb">%1$d MB</string>
+
+    <!-- Temp Cleaner -->
+    <string name="temp_cleaner_title">Limpador de Cache</string>
+    <string name="total_cache">Cache Total: %1$s</string>
+    <string name="clear_all_cache">Limpar Todo o Cache</string>
+    <string name="clear_cache">Limpar</string>
+    <string name="cache_cleared">Cache limpo com sucesso!</string>
+    <string name="scanning">Escaneando…</string>
+    <string name="no_cache_found">Nenhum cache encontrado</string>
+
+    <!-- Storage Analyzer -->
+    <string name="storage_analyzer_title">Análise de Armazenamento</string>
+    <string name="storage_apps">Aplicativos</string>
+    <string name="storage_media">Mídia</string>
+    <string name="storage_cache">Cache</string>
+    <string name="storage_system">Sistema</string>
+    <string name="storage_free">Livre</string>
+    <string name="storage_used_of_total">%1$s usado de %2$s</string>
+
+    <!-- Notification Manager -->
+    <string name="notification_manager_title">Gerenciador de Notificações</string>
+    <string name="smartwatch_section">Smartwatch mactivePRO</string>
+    <string name="scan_devices">Buscar Dispositivos</string>
+    <string name="stop_scan">Parar Busca</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="connect">Conectar</string>
+    <string name="notification_mirror">Espelhamento de Notificações</string>
+    <string name="mirror_enabled">Ativado</string>
+    <string name="mirror_disabled">Desativado</string>
+    <string name="enable_notification_access">Habilitar Acesso às Notificações</string>
+    <string name="notification_access_required">É necessário conceder acesso às notificações para espelhar no smartwatch.</string>
+    <string name="open_settings">Abrir Configurações</string>
+    <string name="recommended_apps">Apps Recomendados</string>
+    <string name="all_apps">Todos os Aplicativos</string>
+    <string name="no_devices_found">Nenhum dispositivo encontrado</string>
+    <string name="scanning_devices">Buscando dispositivos…</string>
+    <string name="recent_notifications">Notificações Recentes</string>
+    <string name="bluetooth_required">Permissões de Bluetooth necessárias</string>
+
+    <!-- Common -->
+    <string name="loading">Carregando…</string>
+    <string name="error">Erro</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="unknown">Desconhecido</string>
+
+    <!-- Battery Health -->
+    <string name="health_good">Boa</string>
+    <string name="health_overheat">Superaquecimento</string>
+    <string name="health_dead">Morta</string>
+    <string name="health_over_voltage">Sobretensão</string>
+    <string name="health_cold">Fria</string>
+    <string name="health_unknown">Desconhecida</string>
+</resources>
